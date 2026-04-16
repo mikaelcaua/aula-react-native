@@ -1,0 +1,126 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#F3F4F6",
+  },
+  content: {
+    padding: 20,
+    gap: 16,
+  },
+  header: {
+    backgroundColor: "#0F766E",
+    borderRadius: 16,
+    padding: 16,
+    gap: 6,
+  },
+  badge: {
+    alignSelf: "flex-start",
+    backgroundColor: "#115E59",
+    color: "#E6FFFA",
+    fontSize: 12,
+    fontWeight: "700",
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 999,
+    letterSpacing: 0.5,
+  },
+  title: {
+    fontSize: 24,
+    color: "#FFFFFF",
+    fontWeight: "700",
+  },
+  subtitle: {
+    fontSize: 14,
+    color: "#CCFBF1",
+  },
+  card: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 16,
+    padding: 16,
+    gap: 10,
+    shadowColor: "#111827",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 10,
+    elevation: 3,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+    color: "#111827",
+    marginBottom: 6,
+  },
+  label: {
+    fontSize: 14,
+    color: "#374151",
+    fontWeight: "600",
+  },
+  input: {
+    height: 44,
+    borderWidth: 1,
+    borderColor: "#D1D5DB",
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    backgroundColor: "#F9FAFB",
+  },
+  primaryButton: {
+    backgroundColor: "#0F766E",
+    borderRadius: 10,
+    height: 44,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 4,
+  },
+  primaryButtonText: {
+    color: "#FFFFFF",
+    fontWeight: "700",
+    fontSize: 15,
+  },
+  item: {
+    borderWidth: 1,
+    borderColor: "#E5E7EB",
+    borderRadius: 12,
+    padding: 12,
+    gap: 10,
+  },
+  itemTitle: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#111827",
+  },
+  itemQuantity: {
+    marginTop: 2,
+    fontSize: 14,
+    color: "#4B5563",
+  },
+  itemActions: {
+    flexDirection: "row",
+    gap: 8,
+  },
+  editButton: {
+    flex: 1,
+    height: 38,
+    borderRadius: 8,
+    backgroundColor: "#EFF6FF",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  editButtonText: {
+    color: "#1D4ED8",
+    fontWeight: "600",
+  },
+  removeButton: {
+    flex: 1,
+    height: 38,
+    borderRadius: 8,
+    backgroundColor: "#FEF2F2",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  removeButtonText: {
+    color: "#B91C1C",
+    fontWeight: "600",
+  },
+});
