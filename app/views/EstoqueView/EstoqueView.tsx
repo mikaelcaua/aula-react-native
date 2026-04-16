@@ -29,7 +29,6 @@ export default function EstoqueView() {
             placeholder="Ex: Martelo"
             placeholderTextColor="#9CA3AF"
             style={styles.input}
-            editable={false}
           />
 
           <Text style={styles.label}>Quantidade em estoque</Text>
@@ -38,7 +37,6 @@ export default function EstoqueView() {
             placeholderTextColor="#9CA3AF"
             style={styles.input}
             keyboardType="numeric"
-            editable={false}
           />
 
           <TouchableOpacity style={styles.primaryButton} activeOpacity={0.9}>
