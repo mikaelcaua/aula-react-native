@@ -2,7 +2,7 @@ import { ScrollView, Text, TextInput, TouchableOpacity, View } from "react-nativ
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import type { ProdutoEstoque } from "../../../interfaces/ProdutoEstoque";
-import { styles } from "./EstoqueView.style";
+import { styles } from "./style";
 
 const produtos: ProdutoEstoque[] = [
   { descricao: "Parafuso sextavado", quantidadeEstoque: 48 },
